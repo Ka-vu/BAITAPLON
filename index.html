@@ -159,11 +159,41 @@
         .order-container a:hover {
             background-color: #d9534f;
         }
+        
+      /* Logo */
+        .logo img {
+            height: 100px; /* Thay đổi kích thước logo theo ý muốn */
+            object-fit: contain;
+}
+
+/* Navigation menu */
+.navigation ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.navigation a:hover {
+    color: #007BFF;
+}
+
     </style>
 </head>
 <body>
 
 <header>
+    <div class="logo">
+        <img src="https://i.pinimg.com/474x/32/ac/fd/32acfddb84ea461e66559c7474ad4add.jpg" alt="Logo của trang web">
+    </div>
     <h1>Website bán ô tô Quang Vũ</h1>
     <h2>Chỉ cần bạn muốn chúng tôi đều có thể đáp ứng</h2>
     <nav>
